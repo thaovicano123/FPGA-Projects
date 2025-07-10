@@ -1,0 +1,30 @@
+Reading netlist file: "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\gwsynthesis\Dual_LED_Controller.vg"
+Parsing netlist file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\gwsynthesis\Dual_LED_Controller.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\top.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1123) : the clock "clk_5x_pixel"'s frequency does not match pll_inst/pllvr_inst/CLKOUT's 
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\pnr\Dual_LED_Controller.power.html" completed
+Generate file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\pnr\Dual_LED_Controller.pin.html" completed
+Generate file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\pnr\Dual_LED_Controller.rpt.html" completed
+Generate file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\pnr\Dual_LED_Controller.rpt.txt" completed
+Generate file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\pnr\Dual_LED_Controller.tr.html" completed
+Thu Jul 10 22:49:57 2025
+

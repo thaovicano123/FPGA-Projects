@@ -1,0 +1,53 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/Gowin_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/Gowin_CLKDIV.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/Reset_Sync.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/video_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/clock_counter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/text_renderer_enhanced.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/font_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/project/Button_Counter_Display/src/svo_defines.vh",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/project/Button_Counter_Display/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

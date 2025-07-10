@@ -1,0 +1,48 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\top.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_PLLVR.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_CLKDIV.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Reset_Sync.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\video_timing.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\clock_counter.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\text_renderer_enhanced.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\font_rom.v'
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v'
+Analyzing included file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_defines.vh'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":9)
+Back to file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":9)
+Analyzing Verilog file 'D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_defines.vh'
+Compiling module 'top'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\top.v":1)
+Compiling module 'Gowin_PLLVR'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_PLLVR.v":10)
+Compiling module 'Gowin_CLKDIV'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_CLKDIV.v":10)
+Compiling module 'Reset_Sync'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Reset_Sync.v":4)
+Compiling module 'clock_counter'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\clock_counter.v":1)
+Compiling module 'video_timing'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\video_timing.v":2)
+Compiling module 'text_renderer_enhanced'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\text_renderer_enhanced.v":1)
+Compiling module 'font_rom'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\font_rom.v":1)
+Compiling module 'svo_tmds'("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":11)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":93)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":98)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v":101)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input btn_hold is unused("D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\top.v":5)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\gwsynthesis\Dual_LED_Controller.vg" completed
+[100%] Generate report file "D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\gwsynthesis\Dual_LED_Controller_syn.rpt.html" completed
+GowinSynthesis finish

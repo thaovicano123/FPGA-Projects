@@ -1,0 +1,30 @@
+Reading netlist file: "D:\project\Button_Counter_Display\impl\gwsynthesis\Button_Counter_Display.vg"
+Parsing netlist file "D:\project\Button_Counter_Display\impl\gwsynthesis\Button_Counter_Display.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\project\Button_Counter_Display\src\top.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1123) : the clock "clk_5x_pixel"'s frequency does not match pll_inst/pllvr_inst/CLKOUT's 
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\project\Button_Counter_Display\impl\pnr\Button_Counter_Display.power.html" completed
+Generate file "D:\project\Button_Counter_Display\impl\pnr\Button_Counter_Display.pin.html" completed
+Generate file "D:\project\Button_Counter_Display\impl\pnr\Button_Counter_Display.rpt.html" completed
+Generate file "D:\project\Button_Counter_Display\impl\pnr\Button_Counter_Display.rpt.txt" completed
+Generate file "D:\project\Button_Counter_Display\impl\pnr\Button_Counter_Display.tr.html" completed
+Thu Jul 10 20:36:34 2025
+

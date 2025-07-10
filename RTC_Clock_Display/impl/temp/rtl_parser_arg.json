@@ -1,0 +1,53 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Gowin_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Gowin_CLKDIV.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Reset_Sync.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/video_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clock_counter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/text_renderer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/font_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/svo_defines.vh",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGA OPEN CONTEST 2025\Test\led_flash
+vclk_divider
+Z1 II9GUOM42FUUWV1[K[P?G30
+Z2 VlT?_n;c^9^8KaOU<5UCG<3
+Z3 dD:\GOWIN_MCU_SONIX\VONG_LOAI\Bai_1\RTC_Clock_Display
+Z4 w1750608766
+Z5 8D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clk_divider.v
+Z6 FD:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clk_divider.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 IS9?1EnX`d4zjOMJ7J]h=3
+Z10 !s108 1750944258.466000
+Z11 !s107 D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clk_divider.v|
+Z12 !s90 -reportprogress|300|-work|work|D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clk_divider.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrtc_tb
+Z13 IMN[RBT8o^iaiO1C>130F@1
+Z14 Vo@1dc?OIBoHgHZ?0loNf:1
+R3
+Z15 w1750608823
+Z16 8D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_tb.v
+Z17 FD:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_tb.v
+L0 2
+R7
+r1
+31
+R8
+Z18 !s100 OQg^QmFTXZ`n:M=BIcb:^1
+Z19 !s108 1750944258.540000
+Z20 !s107 D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_tb.v|
+Z21 !s90 -reportprogress|300|-work|work|D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrtc_top
+Z22 InQnNDekFPX44GiQ1U1_6M3
+Z23 VOYUIi;BbkAXTlM_3]4M8k2
+R3
+Z24 w1750608808
+Z25 8D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_top.v
+Z26 FD:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_top.v
+L0 1
+R7
+r1
+31
+R8
+!i10b 1
+Z27 !s100 B99eLmbmYXVBJ_jH3m6f;3
+!s85 0
+Z28 !s108 1750944258.587000
+Z29 !s107 D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_top.v|
+Z30 !s90 -reportprogress|300|-work|work|D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/rtc_top.v|
+!s101 -O0
+vtime_counter
+!i10b 1
+!s100 6az<0_53CioSgn5VeS4nI1
+IXbLZKPXSeDKJMEG1:9F^:1
+VhJYgYf91<Hm@Uc2GnTVVT0
+R3
+w1750608788
+8D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/time_counter.v
+FD:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/time_counter.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1750944258.627000
+!s107 D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/time_counter.v|
+!s90 -reportprogress|300|-work|work|D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/time_counter.v|
+!s101 -O0
+R8

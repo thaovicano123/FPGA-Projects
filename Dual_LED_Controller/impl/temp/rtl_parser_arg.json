@@ -1,0 +1,53 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/Gowin_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/Gowin_CLKDIV.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/Reset_Sync.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/video_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/clock_counter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/text_renderer_enhanced.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/font_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/src/svo_defines.vh",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/bai_3/Dual_LED_Controller/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

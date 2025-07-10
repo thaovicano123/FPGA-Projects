@@ -1,0 +1,39 @@
+# Clock
+IO_LOC "clk" 45
+IO_PORT "clk" IO_TYPE=LVCMOS33
+
+# Reset (Button BTN1)
+IO_LOC "resetn" 14
+IO_PORT "resetn" PULL_MODE=UP
+
+# Single Press Button (Button BTN2) - Bài tập 2
+IO_LOC "btn_single" 15
+IO_PORT "btn_single" PULL_MODE=UP
+
+# Hold Button (Button BTN3) - Bài tập 2
+IO_LOC "btn_hold" 16
+IO_PORT "btn_hold" PULL_MODE=UP
+
+# HDMI Clock
+IO_LOC "tmds_clk_p" 28
+IO_LOC "tmds_clk_n" 27
+IO_PORT "tmds_clk_p" PULL_MODE=NONE DRIVE=8
+IO_PORT "tmds_clk_n" PULL_MODE=NONE DRIVE=8
+
+# HDMI Data Channel 0
+IO_LOC "tmds_d_p[0]" 30
+IO_LOC "tmds_d_n[0]" 29
+IO_PORT "tmds_d_p[0]" PULL_MODE=NONE DRIVE=8
+IO_PORT "tmds_d_n[0]" PULL_MODE=NONE DRIVE=8
+
+# HDMI Data Channel 1
+IO_LOC "tmds_d_p[1]" 32
+IO_LOC "tmds_d_n[1]" 31
+IO_PORT "tmds_d_p[1]" PULL_MODE=NONE DRIVE=8
+IO_PORT "tmds_d_n[1]" PULL_MODE=NONE DRIVE=8
+
+# HDMI Data Channel 2
+IO_LOC "tmds_d_p[2]" 35
+IO_LOC "tmds_d_n[2]" 34
+IO_PORT "tmds_d_p[2]" PULL_MODE=NONE DRIVE=8
+IO_PORT "tmds_d_n[2]" PULL_MODE=NONE DRIVE=8 

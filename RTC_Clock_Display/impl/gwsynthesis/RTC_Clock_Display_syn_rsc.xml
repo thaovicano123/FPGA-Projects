@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Lut="1" T_Register="144(0)" T_Alu="120(0)" T_Lut="311(1)">
+ <SubModule name="pll_inst"/>
+ <SubModule name="div_inst"/>
+ <SubModule name="reset_sync" Register="2" Lut="1" T_Register="2(2)" T_Lut="1(1)"/>
+ <SubModule name="u_clk" Register="43" Lut="69" T_Register="43(43)" T_Lut="69(69)"/>
+ <SubModule name="timing_gen" Register="31" Lut="49" T_Register="31(31)" T_Lut="49(49)"/>
+ <SubModule name="u_text" Register="31" Lut="39" T_Register="31(31)" T_Lut="119(39)">
+  <SubModule name="font" Lut="80" T_Lut="80(80)"/>
+ </SubModule>
+ <SubModule name="enc_red" Register="14" Alu="40" Lut="29" T_Register="14(14)" T_Alu="40(40)" T_Lut="29(29)"/>
+ <SubModule name="enc_green" Register="12" Alu="40" Lut="21" T_Register="12(12)" T_Alu="40(40)" T_Lut="21(21)"/>
+ <SubModule name="enc_blue" Register="11" Alu="40" Lut="22" T_Register="11(11)" T_Alu="40(40)" T_Lut="22(22)"/>
+</Module>

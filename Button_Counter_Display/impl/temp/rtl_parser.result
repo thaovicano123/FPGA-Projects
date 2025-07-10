@@ -1,0 +1,94 @@
+[
+ {
+  "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/project/Button_Counter_Display/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "pll_inst",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/Gowin_PLLVR.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 24,
+    "InstName" : "div_inst",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/Gowin_CLKDIV.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 31,
+    "InstName" : "reset_sync",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/Reset_Sync.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 42,
+    "InstName" : "u_clk",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/clock_counter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clock_counter"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 56,
+    "InstName" : "timing_gen",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/video_timing.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "video_timing"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 72,
+    "InstName" : "u_text",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/text_renderer_enhanced.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "text_renderer_enhanced",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/project/Button_Counter_Display/src/text_renderer_enhanced.v",
+      "InstLine" : 20,
+      "InstName" : "font",
+      "ModuleFile" : "D:/project/Button_Counter_Display/src/font_rom.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "font_rom"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 92,
+    "InstName" : "enc_red",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 102,
+    "InstName" : "enc_green",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   },
+   {
+    "InstFile" : "D:/project/Button_Counter_Display/src/top.v",
+    "InstLine" : 112,
+    "InstName" : "enc_blue",
+    "ModuleFile" : "D:/project/Button_Counter_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   }
+  ]
+ }
+]

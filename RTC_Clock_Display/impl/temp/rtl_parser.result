@@ -1,0 +1,94 @@
+[
+ {
+  "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 15,
+    "InstName" : "pll_inst",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Gowin_PLLVR.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 22,
+    "InstName" : "div_inst",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Gowin_CLKDIV.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 29,
+    "InstName" : "reset_sync",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/Reset_Sync.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 38,
+    "InstName" : "u_clk",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/clock_counter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clock_counter"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 49,
+    "InstName" : "timing_gen",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/video_timing.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "video_timing"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 65,
+    "InstName" : "u_text",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/text_renderer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "text_renderer",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/text_renderer.v",
+      "InstLine" : 19,
+      "InstName" : "font",
+      "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/font_rom.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "font_rom"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 84,
+    "InstName" : "enc_red",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 94,
+    "InstName" : "enc_green",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   },
+   {
+    "InstFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/top.v",
+    "InstLine" : 104,
+    "InstName" : "enc_blue",
+    "ModuleFile" : "D:/GOWIN_MCU_SONIX/VONG_LOAI/Bai_1/RTC_Clock_Display/src/svo_tmds.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "svo_tmds"
+   }
+  ]
+ }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\top.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_PLLVR.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Gowin_CLKDIV.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\Reset_Sync.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\video_timing.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\clock_counter.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\text_renderer_enhanced.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\font_rom.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_tmds.v" type="verilog"/>
+        <File path="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\src\svo_defines.vh" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\GOWIN_MCU_SONIX\VONG_LOAI\bai_3\Dual_LED_Controller\impl\gwsynthesis\Dual_LED_Controller.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
