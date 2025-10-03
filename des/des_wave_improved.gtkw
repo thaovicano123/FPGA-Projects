@@ -1,0 +1,55 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] 
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*]
+[dumpfile] "des_control_unit_improved_tb.vcd"
+[dumpfile_mtime] "Fri Sep 28 11:11:11 2025"
+[dumpfile_size] 12345
+[savefile] "des_wave_improved.gtkw"
+[timestart] 0
+[size] 1280 720
+[pos] -1 -1
+*-16.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] des_control_unit_improved_tb.
+[sst_width] 210
+[signals_width] 220
+[sst_expanded] 1
+[sst_vpaned_height] 210
+@28
+des_control_unit_improved_tb.clk
+des_control_unit_improved_tb.rst_n
+des_control_unit_improved_tb.start
+des_control_unit_improved_tb.key_ready
+des_control_unit_improved_tb.data_ready
+@200
+-
+@28
+des_control_unit_improved_tb.done
+des_control_unit_improved_tb.error
+@22
+des_control_unit_improved_tb.round_count[4:0]
+des_control_unit_improved_tb.cycle_count[31:0]
+@200
+-Trạng thái
+@24
+des_control_unit_improved_tb.state[3:0]
+@200
+-Trạng thái (ASCII)
+@28
+des_control_unit_improved_tb.dut.state
+@200
+-Tín hiệu điều khiển
+@28
+des_control_unit_improved_tb.en_ip
+des_control_unit_improved_tb.en_fp
+des_control_unit_improved_tb.en_expansion
+des_control_unit_improved_tb.en_key_mixing
+des_control_unit_improved_tb.en_sbox
+des_control_unit_improved_tb.en_pbox
+des_control_unit_improved_tb.en_feistel
+des_control_unit_improved_tb.en_key_schedule
+des_control_unit_improved_tb.sel_input
+des_control_unit_improved_tb.sel_output
+[pattern_trace] 1
+[pattern_trace] 0

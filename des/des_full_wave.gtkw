@@ -1,0 +1,61 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] 
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*]
+[dumpfile] "des_full_tb.vcd"
+[dumpfile_mtime] "Fri Oct 2 12:00:00 2025"
+[dumpfile_size] 12345
+[savefile] "des_full_wave.gtkw"
+[timestart] 0
+[size] 1280 720
+[pos] -1 -1
+*-16.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] des_full_tb.
+[treeopen] des_full_tb.dut.
+[sst_width] 210
+[signals_width] 220
+[sst_expanded] 1
+[sst_vpaned_height] 210
+@28
+des_full_tb.clk
+des_full_tb.rst_n
+des_full_tb.start
+des_full_tb.encrypt
+@200
+-Trạng thái hệ thống
+@24
+des_full_tb.state[3:0]
+des_full_tb.round_count[4:0]
+des_full_tb.cycle_count[31:0]
+@28
+des_full_tb.done
+des_full_tb.error
+@200
+-Dữ liệu đầu vào/ra
+@22
+des_full_tb.data_in[63:0]
+des_full_tb.key[63:0]
+des_full_tb.data_out[63:0]
+@200
+-Dữ liệu trong quá trình xử lý
+@22
+des_full_tb.left[31:0]
+des_full_tb.right[31:0]
+des_full_tb.feistel_out[31:0]
+des_full_tb.subkey[47:0]
+@200
+-Control Unit
+@28
+des_full_tb.dut.en_ip
+des_full_tb.dut.en_expansion
+des_full_tb.dut.en_key_mixing
+des_full_tb.dut.en_sbox
+des_full_tb.dut.en_pbox
+des_full_tb.dut.en_feistel
+des_full_tb.dut.en_key_schedule
+des_full_tb.dut.en_fp
+des_full_tb.dut.sel_input
+des_full_tb.dut.sel_output
+[pattern_trace] 1
+[pattern_trace] 0
